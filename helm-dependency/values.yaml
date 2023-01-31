@@ -1,7 +1,10 @@
 wordpress:
   wordpressPassword: foo
   mariadb:
-    db:
+    auth:
       password: bar
-    rootUser:
-      password: baz
+      rootPassword: baz
+#     db:
+#       password: bar
+#     rootUser:
+#       password: baz
